@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: #b3b1b6;
+}
+
+a:active {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  color: #e4e4e4;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+h2,
+p {
+  color: white;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: white;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  /* vh - takes up the full space of screen */
+  min-height: 100vh;
+  background: linear-gradient(to right top, #7844e9, #000000);
+  /* flex to make it center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio {
+  /* 80% of screen */
+  min-height: 80vh;
+  width: 70%;
+  background: linear-gradient(to right bottom,
+      rgba(165, 150, 184, 0.9),
+      rgba(255, 255, 255, 0.1));
+  border-radius: 2rem;
+  z-index: 3;
+  backdrop-filter: blur(1rem);
+  /* 2 parts */
+  display: flex;
+}
+
+.shape1,
+.shape2 {
+  background: linear-gradient(to right bottom,
+      rgb(121, 68, 235, 0.5),
+      rgb(4, 214, 251, 0.1));
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape1 {
+  top: 5%;
+  right: 10%;
+}
+
+.shape2 {
+  bottom: 5%;
+  left: 10%;
+}
+
+/* let's split equally */
+.dashboard {
+  flex: 1;
+  /* adding flex just for the flex container allignment property */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(to right bottom,
+      rgba(86, 47, 131, 0.7),
+      rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+}
+
+.user img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.link {
+  display: flex;
+  margin: 1rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+}
+
+.btn {
+  background: linear-gradient(to right top, #7844e9, #000000);
+  color: white;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  width: 100px;
+}
+
+/* DASHBOARD 2 */
+/* flex 2 : to take more space than the dashboard 2 */
+.dashboard2 {
+  flex: 3;
+}
+
+.head {
+  margin-bottom: 3rem;
+}
+
+.head input {
+  background: linear-gradient(to right bottom,
+      rgba(165, 150, 184, 0.9),
+      rgba(255, 255, 255, 0.1));
+  border: none;
+  width: 50%;
+  padding: 0.1rem;
+  border-radius: 2rem;
+}
+
+.dashboard2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 3rem 5rem;
+}
+
+.card {
+  display: flex;
+  background: linear-gradient(to left top,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.9));
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  box-shadow: 6px 6px 20px rgba(49, 17, 68, 0.513);
+  /* justify-content: space-between; */
+  justify-content: space-between;
+}
+
+.percentage {
+  background: linear-gradient(to right top, #7844e9, #000000);
+  width: 100%;
+  height: 20px;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.percentage::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(210, 241, 255, 0.37);
+  position: absolute;
+  left: 40%;
+}
+
+#p-75, #p-65, #p-60{
+  width: 130px;
+}
+
+#p-75::after {
+  left: 75%;
+}
+
+#p-65::after {
+  left: 65%;
+}
+
+#p-60::after {
+  left: 60%;
+}
+
+.card-info h2 {
+  font-weight: bolder;
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+}
+
+.card-info p {
+  font-size: 10px;
+}
