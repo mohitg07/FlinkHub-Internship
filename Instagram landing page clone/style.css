@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body{
+  background-color: #fafafa;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 0rem;
+}
+
+.container{
+  width: 100%;
+  max-width: 93rem;
+  margin: 2rem auto;
+}
+
+.wrapper > .container{
+  display: flex;
+  padding: 0 8rem;
+}
+
+.phone-app{
+  background: url("./images/mobile-app.png") no-repeat;
+  flex: 1;
+  height: 60rem;
+  margin-top: -25px;
+}
+
+.form-data{
+  width: 100%;
+  max-width: 35rem;
+  margin: 3rem;
+}
+
+.form-data form{
+  background: #fff;
+  border: 2px solid #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+.logo img{
+  width: 17rem;
+  border-bottom: 2.5rem;
+}
+
+.form-data form input{
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #eee;
+  border-radius: 0.4rem;
+}
+
+.form-btn{
+  background-color: #3897f0;
+  border: none;
+  color: white;
+  margin: 1rem 0 1.5rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.line{
+  font-size: 1.4rem;
+  font-family: Arial;
+  font-weight: bold;
+  color: #999999;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.line::before,
+.line::after{
+  background-color: #eee;
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  top: 50%;
+}
+
+.line::before{
+  left: 0;
+}
+
+.line::after{
+  right: 0;
+}
+
+.facebook-login{
+  font-size: 1.4rem;
+  color: #385185;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+}
+
+.facebook-login i{
+  font-size: 2rem;
+  margin-right: 0.7rem;
+}
+
+.reset{
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: #003569;
+}
+
+.sign-up{
+  background-color: white;
+  border: 2px solid #eee;
+  font-size: 1.4rem;
+  color: #262626;
+  padding: 2rem 0;
+  margin: 1rem 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sign-up a{
+  color: #3897f0
+}
+
+.get-app{
+   font-size: 1.4rem;
+   font-family: sans-serif;
+   text-align: center;
+}
+
+.get-app span{
+  display: block;
+  color: #262626;
+}
+
+.bages{
+   width: 100%;
+   display: flex;
+}
+
+.bages img{
+  max-width: 14rem;
+  margin: 2rem 0;
+  margin-left: 2rem;
+}
+
+footer{
+  padding: 0 5rem;
+}
+
+footer .container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .container ul{
+  display: flex;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+  margin-right: 1.6rem;
+}
+
+li a{
+   text-decoration: none;
+   color: #8e8e8e;
+}
+
+li a:hover{
+  font-weight: bold;
+  color: black;
+}
