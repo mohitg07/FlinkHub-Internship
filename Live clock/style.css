@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+#day-date{
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.day{
+  display: inline-block;
+  margin-right: 20px
+}
+
+.date{
+  display: inline-block;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 70px;
+  margin-top: 50px;
+}
