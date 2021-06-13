@@ -1,0 +1,50 @@
+.menu-icon,
+.user-img,
+.search-icon,
+.voice-search-icon {
+  height: 30px;
+}
+
+.text-dark{
+  font-family: emoji;
+}
+
+.search-box {
+  border-radius: 30px;
+}
+
+.search-bar {
+  outline: none;
+}
+
+.search-icon{
+  height: 15px;
+}
+
+.voice-search-icon{
+  height: 20px;
+}
+
+.language{
+  color: blue;
+}
+
+.footer a {
+  color: #7e7e7e;
+}
+
+.bottom1{
+  margin: 5px;
+}
+
+.bottom2{
+  font-size: 15px;
+  margin: 5px;
+}
+
+.imgs {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-left: 130px;
+  width: 280px;
+}
